@@ -33,8 +33,11 @@
         <figcaption>Cats are so <strong>curious!</strong></figcaption>
         </figure>
       <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
-        <label><input value="outdoor" name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+        <fieldset>
+          <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
+          <label><input value="outdoor" name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+        </fieldset>
+        
         <input required type="text" name="cat photo url" placeholder="ca photo URL">
         <button type="submit">Submit</button>
       </form>
